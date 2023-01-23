@@ -45,6 +45,7 @@ start=0;
 for(let i=0;i<5;i++){
   ids[i].onclick=function() {clicked(i)};
 }
+scaler();
   window.onresize=function() {refresh()};
   function refresh(){
     console.log(innerWidth);
