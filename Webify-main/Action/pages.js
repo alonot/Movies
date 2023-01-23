@@ -16,6 +16,7 @@ function open(){
 }
 window.onresize=function() {reorder()};
 
+reorder();
 function reorder(){
   if(innerWidth<=930)
   {
