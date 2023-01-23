@@ -14,7 +14,13 @@ function open(){
     rest.style.display="none";
     wind.style.display="block";
 }
-function refresh(){
-  location.reload();
+window.onresize=function() {reorder()};
+
+function reorder(){
+  if(innerWidth<=930)
+  {
+    document.getElementById("content").style.marginTop="0px";
+    document.getElementById("content").style.marginLeft="0px";
+    document.getElementById("image").style.marginLeft="25vw";
+  }
 }
-  window.onresize=function() {refresh()};
