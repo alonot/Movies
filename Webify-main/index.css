@@ -2,7 +2,6 @@ body{
     height: 100%;width: 100%;
     background-image:radial-gradient(rgb(5, 2, 26),rgb(1, 9, 30),rgb(0, 0, 1),hsla(207, 100%, 2%, 0.959));
     box-sizing: border-box;
-    min-width:2590px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
 }
@@ -45,7 +44,7 @@ body{
 #bingo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300%;
-    margin-top: -011%;
+    margin-top: -07%;
     width: 105%;
     position: fixed;
     margin-left: -2%;
